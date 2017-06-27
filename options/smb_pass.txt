@@ -1,0 +1,4 @@
+mozilla@example.com
+zz020219
+
+ftpuser
