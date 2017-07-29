@@ -6,16 +6,7 @@ README
 ## 如何使用
 手工选择从/launch/Launch.java文件启动或将项目导出成jar包后运行</br>
 运行截图:</br>
-
-
-
-
-
-
-
-
-
-
+[baidu-logo]:/example.png "百度logo"
 ## 功能介绍
 * 域名相关漏洞检查
   * 域传输漏洞
