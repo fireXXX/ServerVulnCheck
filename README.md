@@ -23,3 +23,29 @@ README
 ## 目录结构
 * /options</br>
   存放sql注入的配置项以及爆破的字典
+* /phantomjs</br>
+  模拟浏览器发出请求，不过因为速度过慢，所有只有在获取ip对应的网站主页时才会使用
+* /src
+  * /UI</br>
+  图形界面
+  * /action
+    * /brute</br>
+    服务弱口令爆破模块
+    * /domain</br>
+    域名相关的工具和漏洞
+    * /subdomain</br>
+    提供子域名到ip的转换以及子域名网站主页获取
+    * /ip</br>
+    与端口相关的漏洞以及查询C段等工具类
+    * /url</br>
+    与url相关的漏洞，例如sql注入、xss等
+  * /global</br>
+    提供全局配置项，例如代理地址，后面要做成配置文件的形式
+  * /launch</br>
+    程序的启动位置
+  * /threadpool</br>
+    线程池，分配线程去完成对目标的操作任务，根据反射去加载/action目录下相应的类
+  * /tools</br>
+    封装了日志、http连接请求以及字符串匹配等操作
+  * /weblogic</br>
+    仅为反序列化使用
